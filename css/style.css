@@ -191,6 +191,20 @@ div {
   -moz-box-shadow: none;
   box-shadow: none;
 }
+#sidebar .widget .author-info {
+  text-align: center;
+}
+#sidebar .widget .author-info a.info-avatar img {
+  border-radius: 50%;
+  padding: 4px;
+  width: 96px;
+  height: 96px;
+  background-color: transparent;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+#sidebar .widget .author-info a.info-icon {
+  font-size: 25px;
+}
 
 /* title for search result or tagged posts*/
 .label-title {
@@ -1745,4 +1759,23 @@ em.search-keyword {
   .content {
     grid-template-columns: 2fr 1fr;
   }
+}
+/* 自定义头像样式 */
+.site-avatar {
+  text-align: center;
+  margin: 30px 0;
+}
+.site-avatar img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  border: 4px solid #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* 侧边栏中的头像 */
+.sidebar .site-avatar {
+  margin: 0 auto 15px auto;
 }
