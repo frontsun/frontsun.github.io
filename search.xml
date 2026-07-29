@@ -1018,7 +1018,9 @@ e.g:    fss.format(25,5)
         <category>影&amp;音</category>
       </categories>
       <tags>
-        <tag>爱情，家国，侨批</tag>
+        <tag>爱情</tag>
+        <tag>家国</tag>
+        <tag>侨批</tag>
       </tags>
   </entry>
 </search>
